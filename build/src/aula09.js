@@ -1,0 +1,18 @@
+"use strict";
+let nvalor;
+let svalor;
+let uvalor;
+uvalor = 10;
+nvalor = uvalor;
+svalor = uvalor;
+svalor += 10;
+console.log(`uvalor é ${typeof (uvalor)} e tem o valor ${uvalor}`);
+console.log(`nvalor é ${typeof (nvalor)} e tem o valor ${nvalor}`);
+console.log(`svalor é ${typeof (svalor)} e tem o valor ${svalor}`);
+let valueToConvert = '10';
+let convertedValue = Number.parseInt(valueToConvert);
+console.log(convertedValue);
+console.log(typeof (convertedValue));
+let valueToConvert2 = 10;
+let convertedValue2 = String(valueToConvert2);
+console.log(convertedValue2, typeof (convertedValue2));

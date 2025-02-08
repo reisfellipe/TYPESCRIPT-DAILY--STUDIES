@@ -1,0 +1,12 @@
+"use strict";
+let vteste;
+vteste = 'MSG';
+console.log(vteste);
+vteste = 123;
+console.log(vteste);
+let stacks = ["Typescript", "Javascript", "Java"];
+let valores = [20, 50, 100];
+valores.push(200);
+stacks.push("GIT");
+console.log(valores);
+console.log(stacks);

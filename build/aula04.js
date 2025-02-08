@@ -1,0 +1,10 @@
+"use strict";
+let numeros = [1, 2, 3, 4, 5];
+numeros.unshift(0);
+numeros.push(6);
+console.log(numeros);
+numeros.pop();
+numeros.shift();
+console.log(numeros);
+let numeros_ro = [100, 200, 300];
+console.log(numeros_ro);
